@@ -24,20 +24,7 @@
 
 <script>
 export default {
-  name: 'navbar',
-  props: [],
-  data() {
-    return {
-    }
-  },
-  methods: {
-    goToContadores() {
-      this.$router.push('/contadores')
-    }
-  },
-  computed: {
-
-  }
+  name: 'navbar'
 }
 </script>
 

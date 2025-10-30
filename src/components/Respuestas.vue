@@ -1,5 +1,6 @@
+
 <template>
-  <section class="card">
+  <section class="card mb-3">
     <div class="card-header">
       <h2>Respuestas</h2>
     </div>
@@ -16,15 +17,15 @@
           <tbody>
             <tr>
               <td>1</td>
-              <td>a</td>
+              <td>c</td>
             </tr>
             <tr>
               <td>2</td>
-              <td>a, c</td>
+              <td>c</td>
             </tr>
             <tr>
               <td>3</td>
-              <td>b</td>
+              <td>a</td>
             </tr>
           </tbody>
         </table>
@@ -40,20 +41,6 @@
 export default {
   name: 'respuestas',
   props: [],
-  mounted() {
-
-  },
-  data() {
-    return {
-
-    }
-  },
-  methods: {
-
-  },
-  computed: {
-
-  }
 }
 </script>
 
@@ -61,5 +48,10 @@ export default {
 .card-header {
   background-color: indigo;
   color: white;
+  text-align: center;
+}
+.card-body {
+  margin-top: 15px;
+  text-align: center;
 }
 </style>

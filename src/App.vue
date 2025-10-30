@@ -2,7 +2,7 @@
   <div class="container-fluid mt-3">
     <div class="card">
       <header class="card-header">
-        <h1>Primer Parcial</h1>
+        <h1>Primer Parcial - Programacion Nuevas Tecnologias  </h1>
       </header>
       <main class="card-body">
         <br>
@@ -27,7 +27,7 @@ export default {
 
 <style scoped>
 .card-header {
-  background-color: seagreen;
+  background-color: rgb(232, 121, 214);
   color: white;
 }
 </style>
